@@ -30,7 +30,10 @@ El proyecto sigue la estructura estándar de Unity, con carpetas como `Assets`, 
 - **Tareas Realizadas:**
   - Configuración del entorno de desarrollo en Unity.
   - Creación del repositorio y configuración del archivo `.gitignore` basado en [Unity.gitignore](https://github.com/github/gitignore/blob/main/Unity.gitignore).
-  - Instalación de paquetes esenciales como `com.unity.2d.common`, `com.unity.burst`, y `com.unity.mathematics`.
+  - Instalación de paquetes esenciales como:
+    - `com.unity.2d.common`
+    - `com.unity.burst`
+    - `com.unity.mathematics`
 
 - **Problemas Encontrados:**
   - Conflictos al importar algunos paquetes debido a versiones incompatibles.
@@ -40,30 +43,25 @@ El proyecto sigue la estructura estándar de Unity, con carpetas como `Assets`, 
 
 ---
 
-### Día 2: Desarrollo de Mecánicas Básicas
-- **Tareas Realizadas:**
-  - Creación de la escena principal en la carpeta `Assets/Scenes`.
-  - Implementación de scripts básicos para el control de personajes.
-  - Configuración de prefabs en `Assets/Prefabs`.
+## Asignaciones de Movimiento
 
-- **Problemas Encontrados:**
-  - Los archivos `.meta` no se sincronizaban correctamente en el repositorio.
+A continuación, se detalla el cuadro de asignaciones para las acciones del personaje:
 
-- **Soluciones Implementadas:**
-  - Verificación de que todos los archivos `.meta` estén incluidos en el control de versiones.
-
----
-
-### Día 3: Integración de Gráficos y Animaciones
-- **Tareas Realizadas:**
-  - Importación de modelos `.fbx` y texturas.
-  - Configuración de animaciones utilizando el paquete `com.unity.modules.animation`.
-
-- **Problemas Encontrados:**
-  - Algunos modelos `.fbx` no se importaban correctamente debido a configuraciones de escala.
-
-- **Soluciones Implementadas:**
-  - Ajuste de las configuraciones de importación en Unity para corregir la escala.
+| **Acción**                | **Tecla(s) principal(es)** | **Alternativa(s) / Opcional** |
+|---------------------------|----------------------------|--------------------------------|
+| Mover izquierda           | A                        | Flecha izquierda              |
+| Mover derecha             | D                        | Flecha derecha                |
+| Saltar                    | W / Barra espaciadora    | Flecha arriba                 |
+| Agacharse / Deslizar      | S                        | Flecha abajo                  |
+| Correr (Dash)             | Left Shift               | Right Shift                   |
+| Atacar cuerpo a cuerpo    | J                        | Mouse botón izquierdo         |
+| Atacar a distancia        | K                        | Mouse botón derecho           |
+| Doble salto               | Igual que salto (si ya está en aire) | —                  |
+| Trepar / Escalar          | W (cerca de escalera)    | Flecha arriba                 |
+| Empujar / Tirar objetos   | E                        | —                              |
+| Rodar / Esquivar          | L                        | —                              |
+| Especial                  | U                        | —                              |
+| Morir / daño (automático) | —                        | —                              |
 
 ---
 
