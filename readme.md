@@ -60,8 +60,8 @@ A continuación, se detalla el cuadro de asignaciones para las acciones del pers
 | Trepar / Escalar          | W (cerca de escalera)    | Flecha arriba                 |
 | Empujar / Tirar objetos   | E                        | —                              |
 | Rodar / Esquivar          | L                        | —                              |
-| Especial                  | U                        | —                              |
-| Morir / daño (automático) | —                        | —                              |
+| Especial                  |                          | —                              |
+
 
 ---
 
