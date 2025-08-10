@@ -29,18 +29,13 @@ El proyecto sigue la estructura estándar de Unity, con carpetas como `Assets`, 
 ### Día 1: Configuración Inicial
 - **Tareas Realizadas:**
   - Configuración del entorno de desarrollo en Unity.
-  - Creación del repositorio y configuración del archivo `.gitignore` basado en [Unity.gitignore](https://github.com/github/gitignore/blob/main/Unity.gitignore).
-  - Instalación de paquetes esenciales como:
-    - `com.unity.2d.common`
-    - `com.unity.burst`
-    - `com.unity.mathematics`
-
-- **Problemas Encontrados:**
-  - Conflictos al importar algunos paquetes debido a versiones incompatibles.
-
-- **Soluciones Implementadas:**
-  - Actualización de los paquetes a versiones compatibles según el archivo `packages-lock.json`.
-
+  - Creación del repositorio y configuración del archivo `.gitignore` 
+. **Ataque a distancia (`isRanged`)**:
+   - Ahora se puede realizar tanto con la tecla `K` como con el clic izquierdo del mouse.
+2. **Corrección en la animación de rodar (`isRolling`)**:
+   - La animación de rodar ahora se activa inmediatamente al presionar la tecla `L`.
+3. **Mejoras en el manejo de ataques**:
+   - Se agregó soporte para detectar entradas del mouse para ataques cuerpo a cuerpo y a distancia.
 ---
 
 ## Asignaciones de Movimiento
@@ -53,30 +48,21 @@ A continuación, se detalla el cuadro de asignaciones para las acciones del pers
 | Mover derecha             | D                        | Flecha derecha                |
 | Saltar                    | W / Barra espaciadora    | Flecha arriba                 |
 | Agacharse / Deslizar      | S                        | Flecha abajo                  |
-| Correr (Dash)             | Left Shift               | Right Shift                   |
+| Correr                    | Left Shift               | Right Shift                   |
 | Atacar cuerpo a cuerpo    | J                        | Mouse botón izquierdo         |
 | Atacar a distancia        | K                        | Mouse botón derecho           |
 —                  |
 | Trepar / Escalar          | W (cerca de escalera)    | Flecha arriba                 |
-| Empujar / Tirar objetos   | E                        | —                              |
+| Empujar                   | E                        | —                              |
 | Rodar / Esquivar          | L                        | —                              |
 | Especial                  |                          | —                              |
 
 
 ---
 
-## Próximos Pasos
 
-- Implementar el sistema de colisiones y físicas.
-- Integrar el paquete `com.unity.2d.pixel-perfect` para mejorar la calidad visual.
-- Configurar pruebas automatizadas utilizando `com.unity.test-framework`.
 
----
 
-## Notas Adicionales
-
-- **Configuración de Visual Studio Code:** El archivo `.vscode/settings.json` incluye exclusiones para carpetas como `Library/`, `Temp/`, y `Logs/` para mejorar el rendimiento de búsqueda.
-- **Control de Versiones:** Se recomienda verificar que los archivos `.meta` estén siempre sincronizados para evitar problemas al compartir el proyecto.
 
 ---
 
