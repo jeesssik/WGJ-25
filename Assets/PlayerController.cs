@@ -82,15 +82,15 @@ public class PlayerController : MonoBehaviour
 
     void HandleAttacks()
     {
-        if (Input.GetKeyDown(KeyCode.J))
+        if (Input.GetKeyDown(KeyCode.J)|| Input.GetMouseButtonDown(0))
             anim.SetBool("isAttacking", true);
-        else if (Input.GetKeyUp(KeyCode.J))
+        else if (Input.GetKeyUp(KeyCode.J)|| Input.GetMouseButtonUp(0))
             anim.SetBool("isAttacking", false);
 
-        if (Input.GetKeyDown(KeyCode.K))
-            anim.SetBool("isRanged", true);
-        else if (Input.GetKeyUp(KeyCode.K))
-            anim.SetBool("isRanged", false);
+        if (Input.GetKeyDown(KeyCode.K) ) // Tecla K o clic izquierdo
+        anim.SetBool("isRanged", true);
+    else if (Input.GetKeyUp(KeyCode.K) ) // Soltar tecla K o clic izquierdo
+        anim.SetBool("isRanged", false);
 
         if (Input.GetKeyDown(KeyCode.L))
             anim.SetBool("isRolling", true);

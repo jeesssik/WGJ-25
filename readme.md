@@ -56,7 +56,7 @@ A continuación, se detalla el cuadro de asignaciones para las acciones del pers
 | Correr (Dash)             | Left Shift               | Right Shift                   |
 | Atacar cuerpo a cuerpo    | J                        | Mouse botón izquierdo         |
 | Atacar a distancia        | K                        | Mouse botón derecho           |
-| Doble salto               | Igual que salto (si ya está en aire) | —                  |
+—                  |
 | Trepar / Escalar          | W (cerca de escalera)    | Flecha arriba                 |
 | Empujar / Tirar objetos   | E                        | —                              |
 | Rodar / Esquivar          | L                        | —                              |
